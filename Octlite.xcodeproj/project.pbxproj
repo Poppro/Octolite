@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7809CA2E1C07E7EA00952D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA2D1C07E7EA00952D77 /* AppDelegate.swift */; };
+		7809CA301C07E7EA00952D77 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7809CA2F1C07E7EA00952D77 /* GameScene.sks */; };
+		7809CA321C07E7EA00952D77 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA311C07E7EA00952D77 /* GameScene.swift */; };
+		7809CA341C07E7EA00952D77 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA331C07E7EA00952D77 /* GameViewController.swift */; };
+		7809CA371C07E7EA00952D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809CA351C07E7EA00952D77 /* Main.storyboard */; };
+		7809CA391C07E7EA00952D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7809CA381C07E7EA00952D77 /* Assets.xcassets */; };
+		7809CA3C1C07E7EA00952D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809CA3A1C07E7EA00952D77 /* LaunchScreen.storyboard */; };
+		7809CA471C07E7EA00952D77 /* OctliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA461C07E7EA00952D77 /* OctliteTests.swift */; };
+		7809CA521C07E7EB00952D77 /* OctliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA511C07E7EB00952D77 /* OctliteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7809CA431C07E7EA00952D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809CA221C07E7EA00952D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809CA291C07E7EA00952D77;
+			remoteInfo = Octlite;
+		};
+		7809CA4E1C07E7EB00952D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809CA221C07E7EA00952D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809CA291C07E7EA00952D77;
+			remoteInfo = Octlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7809CA2A1C07E7EA00952D77 /* Octlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809CA2D1C07E7EA00952D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7809CA2F1C07E7EA00952D77 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7809CA311C07E7EA00952D77 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7809CA331C07E7EA00952D77 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7809CA361C07E7EA00952D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7809CA381C07E7EA00952D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7809CA3B1C07E7EA00952D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7809CA3D1C07E7EA00952D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809CA421C07E7EA00952D77 /* OctliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809CA461C07E7EA00952D77 /* OctliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctliteTests.swift; sourceTree = "<group>"; };
+		7809CA481C07E7EA00952D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809CA4D1C07E7EA00952D77 /* OctliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809CA511C07E7EB00952D77 /* OctliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctliteUITests.swift; sourceTree = "<group>"; };
+		7809CA531C07E7EB00952D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7809CA271C07E7EA00952D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA3F1C07E7EA00952D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA4A1C07E7EA00952D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7809CA211C07E7EA00952D77 = {
+			isa = PBXGroup;
+			children = (
+				7809CA2C1C07E7EA00952D77 /* Octlite */,
+				7809CA451C07E7EA00952D77 /* OctliteTests */,
+				7809CA501C07E7EB00952D77 /* OctliteUITests */,
+				7809CA2B1C07E7EA00952D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7809CA2B1C07E7EA00952D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7809CA2A1C07E7EA00952D77 /* Octlite.app */,
+				7809CA421C07E7EA00952D77 /* OctliteTests.xctest */,
+				7809CA4D1C07E7EA00952D77 /* OctliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7809CA2C1C07E7EA00952D77 /* Octlite */ = {
+			isa = PBXGroup;
+			children = (
+				7809CA2D1C07E7EA00952D77 /* AppDelegate.swift */,
+				7809CA2F1C07E7EA00952D77 /* GameScene.sks */,
+				7809CA311C07E7EA00952D77 /* GameScene.swift */,
+				7809CA331C07E7EA00952D77 /* GameViewController.swift */,
+				7809CA351C07E7EA00952D77 /* Main.storyboard */,
+				7809CA381C07E7EA00952D77 /* Assets.xcassets */,
+				7809CA3A1C07E7EA00952D77 /* LaunchScreen.storyboard */,
+				7809CA3D1C07E7EA00952D77 /* Info.plist */,
+			);
+			path = Octlite;
+			sourceTree = "<group>";
+		};
+		7809CA451C07E7EA00952D77 /* OctliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				7809CA461C07E7EA00952D77 /* OctliteTests.swift */,
+				7809CA481C07E7EA00952D77 /* Info.plist */,
+			);
+			path = OctliteTests;
+			sourceTree = "<group>";
+		};
+		7809CA501C07E7EB00952D77 /* OctliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7809CA511C07E7EB00952D77 /* OctliteUITests.swift */,
+				7809CA531C07E7EB00952D77 /* Info.plist */,
+			);
+			path = OctliteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7809CA291C07E7EA00952D77 /* Octlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809CA561C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "Octlite" */;
+			buildPhases = (
+				7809CA261C07E7EA00952D77 /* Sources */,
+				7809CA271C07E7EA00952D77 /* Frameworks */,
+				7809CA281C07E7EA00952D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octlite;
+			productName = Octlite;
+			productReference = 7809CA2A1C07E7EA00952D77 /* Octlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7809CA411C07E7EA00952D77 /* OctliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809CA591C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteTests" */;
+			buildPhases = (
+				7809CA3E1C07E7EA00952D77 /* Sources */,
+				7809CA3F1C07E7EA00952D77 /* Frameworks */,
+				7809CA401C07E7EA00952D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809CA441C07E7EA00952D77 /* PBXTargetDependency */,
+			);
+			name = OctliteTests;
+			productName = OctliteTests;
+			productReference = 7809CA421C07E7EA00952D77 /* OctliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7809CA4C1C07E7EA00952D77 /* OctliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809CA5C1C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteUITests" */;
+			buildPhases = (
+				7809CA491C07E7EA00952D77 /* Sources */,
+				7809CA4A1C07E7EA00952D77 /* Frameworks */,
+				7809CA4B1C07E7EA00952D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809CA4F1C07E7EB00952D77 /* PBXTargetDependency */,
+			);
+			name = OctliteUITests;
+			productName = OctliteUITests;
+			productReference = 7809CA4D1C07E7EA00952D77 /* OctliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7809CA221C07E7EA00952D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Poppro;
+				TargetAttributes = {
+					7809CA291C07E7EA00952D77 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G9YM3FZSY3;
+					};
+					7809CA411C07E7EA00952D77 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G9YM3FZSY3;
+						TestTargetID = 7809CA291C07E7EA00952D77;
+					};
+					7809CA4C1C07E7EA00952D77 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G9YM3FZSY3;
+						TestTargetID = 7809CA291C07E7EA00952D77;
+					};
+				};
+			};
+			buildConfigurationList = 7809CA251C07E7EA00952D77 /* Build configuration list for PBXProject "Octlite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7809CA211C07E7EA00952D77;
+			productRefGroup = 7809CA2B1C07E7EA00952D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7809CA291C07E7EA00952D77 /* Octlite */,
+				7809CA411C07E7EA00952D77 /* OctliteTests */,
+				7809CA4C1C07E7EA00952D77 /* OctliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7809CA281C07E7EA00952D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809CA301C07E7EA00952D77 /* GameScene.sks in Resources */,
+				7809CA3C1C07E7EA00952D77 /* LaunchScreen.storyboard in Resources */,
+				7809CA391C07E7EA00952D77 /* Assets.xcassets in Resources */,
+				7809CA371C07E7EA00952D77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA401C07E7EA00952D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA4B1C07E7EA00952D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7809CA261C07E7EA00952D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809CA321C07E7EA00952D77 /* GameScene.swift in Sources */,
+				7809CA341C07E7EA00952D77 /* GameViewController.swift in Sources */,
+				7809CA2E1C07E7EA00952D77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA3E1C07E7EA00952D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809CA471C07E7EA00952D77 /* OctliteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809CA491C07E7EA00952D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809CA521C07E7EB00952D77 /* OctliteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7809CA441C07E7EA00952D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809CA291C07E7EA00952D77 /* Octlite */;
+			targetProxy = 7809CA431C07E7EA00952D77 /* PBXContainerItemProxy */;
+		};
+		7809CA4F1C07E7EB00952D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809CA291C07E7EA00952D77 /* Octlite */;
+			targetProxy = 7809CA4E1C07E7EB00952D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7809CA351C07E7EA00952D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809CA361C07E7EA00952D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7809CA3A1C07E7EA00952D77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809CA3B1C07E7EA00952D77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7809CA541C07E7EB00952D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7809CA551C07E7EB00952D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7809CA571C07E7EB00952D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Octlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.Octlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7809CA581C07E7EB00952D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Octlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.Octlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7809CA5A1C07E7EB00952D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = OctliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.OctliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octlite.app/Octlite";
+			};
+			name = Debug;
+		};
+		7809CA5B1C07E7EB00952D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OctliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.OctliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octlite.app/Octlite";
+			};
+			name = Release;
+		};
+		7809CA5D1C07E7EB00952D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = OctliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.OctliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Octlite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7809CA5E1C07E7EB00952D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OctliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.OctliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Octlite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7809CA251C07E7EA00952D77 /* Build configuration list for PBXProject "Octlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809CA541C07E7EB00952D77 /* Debug */,
+				7809CA551C07E7EB00952D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809CA561C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "Octlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809CA571C07E7EB00952D77 /* Debug */,
+				7809CA581C07E7EB00952D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7809CA591C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809CA5A1C07E7EB00952D77 /* Debug */,
+				7809CA5B1C07E7EB00952D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7809CA5C1C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809CA5D1C07E7EB00952D77 /* Debug */,
+				7809CA5E1C07E7EB00952D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7809CA221C07E7EA00952D77 /* Project object */;
+}
