@@ -1,13 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8118" systemVersion="15A172" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0lC-4K-56D">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8098"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="SDa-KG-7tm">
+            <objects>
+                <viewController id="0lC-4K-56D" customClass="WViewController" customModule="Octlite" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZzD-Y1-YRV"/>
+                        <viewControllerLayoutGuide type="bottom" id="UKC-ZU-dI7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QC6-5a-hKb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OctoLite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="te5-Ue-iqF">
+                                <rect key="frame" x="182" y="60" width="236" height="67"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" red="0.9959825873374939" green="0.99621325731277466" blue="0.99187678098678589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQV-hN-JVS">
+                                <rect key="frame" x="257" y="211" width="86" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="43"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.98634177526028499" green="1" blue="0.96561059564428553" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Start:" destination="0lC-4K-56D" eventType="touchUpInside" id="zad-4U-keU"/>
+                                    <segue destination="BV1-FR-VrT" kind="modal" modalTransitionStyle="crossDissolve" id="KRF-dD-VKP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Octile" translatesAutoresizingMaskIntoConstraints="NO" id="zcP-g2-yoZ">
+                                <rect key="frame" x="238" y="170" width="125" height="125"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="7fi-G1-lJq"/>
+                                    <constraint firstAttribute="width" constant="125" id="Opl-8I-w9Y"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Octile" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-8X-Ev3">
+                                <rect key="frame" x="238" y="357" width="125" height="125"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="QR7-eP-HkN"/>
+                                    <constraint firstAttribute="width" constant="125" id="Sy9-kv-hHO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy" translatesAutoresizingMaskIntoConstraints="NO" id="jwE-9J-5BK">
+                                <rect key="frame" x="234" y="366" width="132" height="108"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="T1z-KH-lul"/>
+                                    <constraint firstAttribute="height" constant="108" id="Wyn-Uk-u1b"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbt-YM-45e">
+                                <rect key="frame" x="257" y="387" width="86" height="67"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="jvy-Eb-v16"/>
+                                    <constraint firstAttribute="width" constant="86" id="lnZ-06-FuN"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="TB:" destination="0lC-4K-56D" eventType="touchUpInside" id="J45-lH-Pfi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.81176470590000005" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jwE-9J-5BK" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="5Vn-hK-E6g"/>
+                            <constraint firstItem="I5L-8X-Ev3" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="Onb-7x-Afc"/>
+                            <constraint firstItem="Jbt-YM-45e" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="QFn-Wu-QWo"/>
+                            <constraint firstItem="jwE-9J-5BK" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="120" id="SuS-xF-jFJ"/>
+                            <constraint firstItem="PQV-hN-JVS" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="Tq1-rW-W1y"/>
+                            <constraint firstItem="zcP-g2-yoZ" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="-67" id="cU6-Kn-q1z"/>
+                            <constraint firstItem="zcP-g2-yoZ" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="ctG-2r-9FQ"/>
+                            <constraint firstItem="te5-Ue-iqF" firstAttribute="centerX" secondItem="QC6-5a-hKb" secondAttribute="centerX" id="dSg-gn-G9Q"/>
+                            <constraint firstItem="Jbt-YM-45e" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="120.5" id="g6V-q7-Jrg"/>
+                            <constraint firstItem="PQV-hN-JVS" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="-67" id="j0g-OO-mtT"/>
+                            <constraint firstItem="te5-Ue-iqF" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="-206.5" id="pyy-Ou-uY1"/>
+                            <constraint firstItem="I5L-8X-Ev3" firstAttribute="centerY" secondItem="QC6-5a-hKb" secondAttribute="centerY" constant="119.5" id="zji-Gq-rsp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="octile1" destination="zcP-g2-yoZ" id="rCj-1Y-kh9"/>
+                        <outlet property="octile2" destination="I5L-8X-Ev3" id="yzg-AW-bIZ"/>
+                        <outlet property="trophy" destination="jwE-9J-5BK" id="a7M-EG-82i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CXz-6u-SfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="228"/>
+        </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Octlite" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
                         <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
@@ -15,11 +110,31 @@
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oev-eT-9Ke">
+                                <rect key="frame" x="20" y="20" width="61" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0lC-4K-56D" kind="modal" modalTransitionStyle="crossDissolve" id="h9O-ZX-DVp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="HQ4-04-7Hi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="665" y="228"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Octile" width="600" height="600"/>
+        <image name="trophy" width="800" height="600"/>
+    </resources>
 </document>

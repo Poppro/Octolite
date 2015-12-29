@@ -16,6 +16,7 @@
 		7809CA3C1C07E7EA00952D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809CA3A1C07E7EA00952D77 /* LaunchScreen.storyboard */; };
 		7809CA471C07E7EA00952D77 /* OctliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA461C07E7EA00952D77 /* OctliteTests.swift */; };
 		7809CA521C07E7EB00952D77 /* OctliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA511C07E7EB00952D77 /* OctliteUITests.swift */; };
+		7809CA601C07F57F00952D77 /* WViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809CA5F1C07F57F00952D77 /* WViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7809CA4D1C07E7EA00952D77 /* OctliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7809CA511C07E7EB00952D77 /* OctliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctliteUITests.swift; sourceTree = "<group>"; };
 		7809CA531C07E7EB00952D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809CA5F1C07F57F00952D77 /* WViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				7809CA2F1C07E7EA00952D77 /* GameScene.sks */,
 				7809CA311C07E7EA00952D77 /* GameScene.swift */,
 				7809CA331C07E7EA00952D77 /* GameViewController.swift */,
+				7809CA5F1C07F57F00952D77 /* WViewController.swift */,
 				7809CA351C07E7EA00952D77 /* Main.storyboard */,
 				7809CA381C07E7EA00952D77 /* Assets.xcassets */,
 				7809CA3A1C07E7EA00952D77 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			files = (
 				7809CA321C07E7EA00952D77 /* GameScene.swift in Sources */,
 				7809CA341C07E7EA00952D77 /* GameViewController.swift in Sources */,
+				7809CA601C07F57F00952D77 /* WViewController.swift in Sources */,
 				7809CA2E1C07E7EA00952D77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Octlite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.Octlite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Octlite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArApp.Octlite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +503,7 @@
 				7809CA581C07E7EB00952D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7809CA591C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +512,7 @@
 				7809CA5B1C07E7EB00952D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7809CA5C1C07E7EB00952D77 /* Build configuration list for PBXNativeTarget "OctliteUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				7809CA5E1C07E7EB00952D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
